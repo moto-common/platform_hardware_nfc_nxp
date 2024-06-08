@@ -1,4 +1,6 @@
 service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
+    interface aidl android.hardware.nfc.INfc/default
     class early_hal
     user nfc
     group nfc
+    disabled
